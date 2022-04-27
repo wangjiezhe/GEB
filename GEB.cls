@@ -412,12 +412,12 @@
 \setCJKmainfont
   [
       BoldFont = FZYaSong-DB1-GBK,
-    ItalicFont = FZNewKai_GB18030-Z03
-  ] { FZNewShuSong_GB18030-Z10 }
-\setCJKsansfont [ BoldFont = FZYouH_510M ] { FZYouH_508R }
-\setCJKmonofont { FZFangSong-Z02_GB18030 }
-\newCJKfontfamily \KAISHU   { FZNewKai_GB18030-Z03 }
-\newCJKfontfamily \FANGSONG { FZFangSong-Z02_GB18030 }
+    ItalicFont = FZNewKai-Z03
+  ] { FZNewShuSong-Z10 }
+\setCJKsansfont [ BoldFont = FZYouHei_GBK~510M ] { FZYouHei_GBK~508R }
+\setCJKmonofont { FZFangSong-Z02 }
+\newCJKfontfamily \KAISHU   { FZNewKai-Z03 }
+\newCJKfontfamily \FANGSONG { FZFangSong-Z02 }
 
 \xeCJKDeclareSubCJKBlock { Strokes } { "31C0 -> "31EF }
 \setCJKmainfont
